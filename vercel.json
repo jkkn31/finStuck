@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app/api/analyze/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/chat/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/screener/route.ts": {
+      "maxDuration": 60
+    },
+    "app/stock/[ticker]/page.tsx": {
+      "maxDuration": 60
+    }
+  }
+}
